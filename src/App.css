@@ -1,33 +1,94 @@
-.App {
-  text-align: center;
+body {
+  margin: 1em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#root {
+    width: 1100px;
+    margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-bar {
+    margin: 20px;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar input {
+    width: 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbotron {
+    padding: 4rem 2rem;
+}
+
+img.user {
+    height: 85px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    float: left;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
+.input-group {
+    margin: 0 auto;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.bs-callout h4, p {
+    font-weight: bold;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+
+.bs-callout-info:hover {
+    border-left-color: #5cb85c;
+    color: #5cb85c !important;
+}
+
+.bs-callout-info:hover h4 {
+    color: #5cb85c !important;
+}
+
+.bs-callout-info:hover p {
+    color: #5cb85c !important;
+}
+
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+.glyphicon {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
 }
